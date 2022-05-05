@@ -1,4 +1,4 @@
-let faker = require('@faker-js/faker');
+import {faker} from '@faker-js/faker';
 let database = {products: []}
 
 for ( let i = 0; i <= 300 ; i++ ) {
